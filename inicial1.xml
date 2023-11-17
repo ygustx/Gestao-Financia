@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText"><![CDATA[>
+
+
+
+    ]]>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="553dp"
+        android:layout_height="913dp"
+        app:srcCompat="@drawable/login"
+        tools:layout_editor_absoluteX="-71dp"
+        tools:layout_editor_absoluteY="-76dp" />
+
+    <EditText
+        android:id="@+id/usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/Light"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Usuário"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <EditText
+        android:id="@+id/senha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/Light"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Senha:"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="461dp" />
+
+    <Button
+        android:id="@+id/Esqueceu"
+        android:layout_width="213dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/igual"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="509dp" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Esqueceu a senha?"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="513dp" />
+
+    <Button
+        android:id="@+id/Cadastrar"
+        android:layout_width="213dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/igual"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="654dp" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="198dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:text="Cadastra-se"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="654dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
